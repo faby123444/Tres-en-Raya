@@ -1,7 +1,11 @@
 # ****TRES EN RAYA****
 
 ## Descripcion
-
+La historia del tres en raya tal y como lo conocemos se remonta a casi mil años a la lejana Persia, desde donde los comerciantes italianos lo exportaban y difundían a sus países. En poco tiempo se convirtió en uno de los juegos más populares de las clases bajas en la Edad Media. En España hay sobradas pruebas de lo extendido que estaba este juego. 
+1.	Tenemos que pintar un tablero con nueve celdas. Se dibujan dos líneas horizontales y dos verticales, formando una cuadrícula de nueve espacios. 
+2.	 Un jugador puede usar, cruces y otro, círculos para marcar las casillas. Gana el que consiga hacer línea ya sea vertical, horizontal o diagonal.
+3.	Las casillas se van marcando de una en una, por jugada, de tal forma que cuenta con ventaja el que primero tira, eso no quiere decir que sea el que finalmente gane.
+4.	 Gana el que consiga hacer línea (horizontal, vertical o diagonal).
 
 ## Funciones principales del código
 | **Función** | **Descripción** |
