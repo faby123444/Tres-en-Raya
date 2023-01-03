@@ -1,4 +1,13 @@
-# ****TRES EN RAYA****
+<div dir="rtl">متن فارسی</div>
+# ******UNIVERSIDAD DE LAS AMERICAS******
+# ******FACULTAD DE INGENIERIA Y CIENCIAS APLICADAS******
+
+****Integrantes:****
+- Fabiana Vásconez
+- Juan David Ramirez
+- Said Cabrera
+- Daniel Vizcarra
+# **TRES EN RAYA**
 
 ## Descripcion
 La historia del tres en raya tal y como lo conocemos se remonta a casi mil años a la lejana Persia, desde donde los comerciantes italianos lo exportaban y difundían a sus países. En poco tiempo se convirtió en uno de los juegos más populares de las clases bajas en la Edad Media. En España hay sobradas pruebas de lo extendido que estaba este juego. 
@@ -64,9 +73,3 @@ Video:https://www.youtube.com/watch?v=v3ENcQpoA5A&ab_channel=FaztCode
 Pagina: https://www.msys2.org
 De esta manera ya no existirá ningun otro inconveniente.
 *No olvides poner la direccion al path*
-
-## Integrantes
-- Fabiana Vásconez
-- Juan David Ramirez
-- Said Cabrera
-- Daniel Vizcarra
