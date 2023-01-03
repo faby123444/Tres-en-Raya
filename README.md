@@ -1,7 +1,12 @@
-<div dir="rtl">متن فارسی</div>
-# ******UNIVERSIDAD DE LAS AMERICAS******
-# ******FACULTAD DE INGENIERIA Y CIENCIAS APLICADAS******
-
+<p align="center">
+UNIVERSIDAD DE LAS AMERICAS
+<p align="center"> 
+FACULTAD DE INGENIERIA Y CIENCIAS APLICADAS
+<p align="center"> 
+INGENIERIA DE SOFTWARE
+<p align="center"> 
+MATEMATICAS DISCRETAS
+  
 ****Integrantes:****
 - Fabiana Vásconez
 - Juan David Ramirez
