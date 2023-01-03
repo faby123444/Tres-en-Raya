@@ -20,6 +20,14 @@
 |***int main()***| Esta es nuestra funcion principal para poder ejecutar nuestro codigo, cuenta con un switch con las opciones de si desea o no que comience la computadora, tambien para poder finalizar el juego y por si existe algun error al momento de ingresar el numero. | 
 
 ## Tiempo de los mejores y peores casos 
+Podemos decir que este codigo ayudaria a minimizar las perdidas de la computadora dando asi un mejor rendimiento y una gran dificultad al jugador para que de esa manera dar un excelente resultado.
+- Jugador 1 Humano (X)
+- Jugador 2 Computadora (O)
+Nuestro primero caso
+
+| **Imagen** | **Proceso** | **Tiempo**|
+|--|--|--|
+|![image](https://upload.wikimedia.org/wikipedia/commons/3/32/Tic_tac_toe.svg)|1.|-|
 
 
 ## Estudio combinatorio del juego
