@@ -25,26 +25,41 @@ Podemos decir que este codigo ayudaria a minimizar las perdidas de la computador
 - Jugador 2 Humano (X)
 Nuestro primero caso
 
-| **Imagen** | **Proceso Computadora** | **Proceso Humano**| **Tiempo**|
-|--|--|--|--|
-|![image](https://upload.wikimedia.org/wikipedia/commons/3/32/Tic_tac_toe.svg)|1. Casilla 9 O, 3. Casilla 6 O, 5. Casilla 8 O, 7. Casilla 1 O, 9. Casilla 5 O|2. Casilla 7 X, 4. Casilla 3 X, 6. Casilla 2 X, 8. Casilla 4 X| 1:20|
+| **Imagen** |**Proceso**| **Tiempo**|
+|--|--|--|
+|![image](https://upload.wikimedia.org/wikipedia/commons/3/32/Tic_tac_toe.svg)|1. Casilla 9 O-Computadora, 2. Casilla 7 X-Humano, 3. Casilla 6 O-Computadora, 4. Casilla 3 X-Humano, 5. Casilla 8 O-Computadora, 6. Casilla 2 X-Humano, 7. Casilla 1 O-Computadora, 8. Casilla 4 X-Humano, 9. Casilla 5 O-Computadora | 1:20|
 
 *Explicacion:* Como podemos notar aqui existió un fallo de parte del humano como comun mente suele suceder, encontramos que la computadora tiene 5 movimientos y el humano tiene 4 por lo que el marcador esta Computadora 1 - Humano 0, con un tiempo aproximado de un minuto con 20 segundos.
 
-| **Imagen** | **Proceso Computadora** | **Proceso Humano**| **Tiempo**|
-|--|--|--|--|
-|![image](https://user-images.githubusercontent.com/121835070/210359071-db631cea-00b3-4717-a007-504d75cec646.png)|2. Casilla 1 O, 4. Casilla 2 O, 6. Casilla 6 O|1. Casilla 5 X, 2. Casilla 9 X, 5. Casilla 3 X, 7. Casilla 7 X| 1:00|
+| **Imagen** |**Proceso**| **Tiempo**|
+|--|--|--|
+|![image](https://user-images.githubusercontent.com/121835070/210359071-db631cea-00b3-4717-a007-504d75cec646.png)|1. Casilla 5 X-Humano,2. Casilla 1 O-Computadora, 3. Casilla 9 X-Humano,4. Casilla 2 O-Computadora, 5. Casilla 3 X-Humano,6. Casilla 6 O-Computadora, 7. Casilla 7 X-Humano| 1:00|
 
+*Explicacion:* En este caso la computadora falló, dando asi al humano 4 movimientos y la computadora 3 movimientos en un lapso de 1 minutos nada mas, cambiando asi el marcador a Computadora 1 - Humano 1.
+
+| **Imagen** |**Proceso**| **Tiempo**|
+|--|--|--|
+|![image](https://user-images.githubusercontent.com/121835070/210361578-4a5da31d-15a5-4e75-9808-140073c9e9f3.png)|1. Casilla 1 X-Humano,2. Casilla 4 O-Computadora, 3. Casilla 5 X-Humano,4. Casilla 9 O-Computadora, 5. Casilla 6 X-Humano,6. Casilla 2 O-Computadora, 7. Casilla 7 X-Humano,8. Casilla 3 O-Computadora, 9. Casilla 8 X-Humano| 1:33|
+
+*Explicacion:* En este ejemplo hay un empete con 5 movimientos el humano y 4 la computadora, el tiempo marco 1 minuto con 33 segundos ya que el humano demoro un poco mas en responder que la anterior vez, el marcador se mantiene con Computadora 1 - Humano 1.
+
+##### Explicacion general
+*Hubo un promedio de respuesta de la computadora de 30 milisegundo y aproximadame de 24 segundos del humano, consideramenos que el mejor caso es la derrota de la computadora con 4 movimientos y el peor caso es el empate o perdida del humano.*
 
 ## Estudio combinatorio del juego
 Los árboles de decisión son herramientas para ayudar a tomar la decisión correcta entre muchas opciones. Su estructura te permite elegir diferentes opciones una y otra vez para explorar diferentes escenarios de decisión posibles. Los árboles de decisión son guías multidireccionales jerárquicas en las que los valores propios son criterios de diagnóstico para evaluar y determinar el uso más adecuado. La jerarquía es cuando una decisión o camino conduce a otro hasta que se consideran todos los factores o características involucradas. Es multidireccional porque puede haber más de dos opciones y es indicativo porque responder una pregunta lleva a una decisión.
 
-Debemos añadir que el numero de posibilidades va cada vez menos ya que
+Como podemos notar al tomar un decision tanto como el humano y computadora si inician de nuevo tienen la opcion de escoger cualquiera de las 9 casillas para la segunda toma de decision ya solo tendra disponible 8 de las nueve casillas y de esa manera ira disminuyendo cada una de las posibilidades hasta que hayan ganado o se dará un empate, en nuestro ejemplo se puede notar evidentemente un empate siendo 1 el humano y 2 la computadora.
+
 ![image](https://user-images.githubusercontent.com/121835070/210329562-af6a9870-9403-4462-ba82-e72020aee4d4.png)
 
 
 ## Código en Windows y Linux
-
+Debemos tomar en cuenta que para poder ejectura el código en Linux y Windows se debe tener un compilador compatible y Visual Studio Code, es decir se va a genera un problema al momento de querer iniciar el juego, para que esto no suceda se puede ayudar con el siguiente video.
+Video:https://www.youtube.com/watch?v=v3ENcQpoA5A&ab_channel=FaztCode
+Pagina: https://www.msys2.org
+De esta manera ya no existirá ningun otro inconveniente.
+*No olvides poner la direccion al path*
 
 ## Integrantes
 - Fabiana Vásconez
