@@ -45,21 +45,21 @@ Nuestro primero caso
 
 | **Imagen** |**Proceso**| **Tiempo**|
 |--|--|--|
-|![image](https://upload.wikimedia.org/wikipedia/commons/3/32/Tic_tac_toe.svg)|1. Casilla 9 O-Computadora, 2. Casilla 7 X-Humano, 3. Casilla 6 O-Computadora, 4. Casilla 3 X-Humano, 5. Casilla 8 O-Computadora, 6. Casilla 2 X-Humano, 7. Casilla 1 O-Computadora, 8. Casilla 4 X-Humano, 9. Casilla 5 O-Computadora | 1:20|
+|![image](https://upload.wikimedia.org/wikipedia/commons/3/32/Tic_tac_toe.svg)|1. Casilla 9 O-Computadora, 2. Casilla 7 X-Humano, 3. Casilla 6 O-Computadora, 4. Casilla 3 X-Humano, 5. Casilla 8 O-Computadora, 6. Casilla 2 X-Humano, 7. Casilla 1 O-Computadora, 8. Casilla 4 X-Humano, 9. Casilla 5 O-Computadora | 58 segundos|
 
-*Explicacion:* Como podemos notar aqui existió un fallo de parte del humano como comun mente suele suceder, encontramos que la computadora tiene 5 movimientos y el humano tiene 4 por lo que el marcador esta Computadora 1 - Humano 0, con un tiempo aproximado de un minuto con 20 segundos.
-
-| **Imagen** |**Proceso**| **Tiempo**|
-|--|--|--|
-|![image](https://user-images.githubusercontent.com/121835070/210359071-db631cea-00b3-4717-a007-504d75cec646.png)|1. Casilla 5 X-Humano,2. Casilla 1 O-Computadora, 3. Casilla 9 X-Humano,4. Casilla 2 O-Computadora, 5. Casilla 3 X-Humano,6. Casilla 6 O-Computadora, 7. Casilla 7 X-Humano| 1:00|
-
-*Explicacion:* En este caso la computadora falló, dando asi al humano 4 movimientos y la computadora 3 movimientos en un lapso de 1 minutos nada mas, cambiando asi el marcador a Computadora 1 - Humano 1.
+*Explicacion:* Como podemos notar aqui existió un fallo de parte del humano como comun mente suele suceder, encontramos que la computadora tiene 5 movimientos y el humano tiene 4 por lo que el marcador esta Computadora 1 - Humano 0, con un tiempo aproximado de un 58 segundos.
 
 | **Imagen** |**Proceso**| **Tiempo**|
 |--|--|--|
-|![image](https://user-images.githubusercontent.com/121835070/210361578-4a5da31d-15a5-4e75-9808-140073c9e9f3.png)|1. Casilla 1 X-Humano,2. Casilla 4 O-Computadora, 3. Casilla 5 X-Humano,4. Casilla 9 O-Computadora, 5. Casilla 6 X-Humano,6. Casilla 2 O-Computadora, 7. Casilla 7 X-Humano,8. Casilla 3 O-Computadora, 9. Casilla 8 X-Humano| 1:33|
+|![image](https://user-images.githubusercontent.com/121835070/210359071-db631cea-00b3-4717-a007-504d75cec646.png)|1. Casilla 5 X-Humano,2. Casilla 1 O-Computadora, 3. Casilla 9 X-Humano,4. Casilla 2 O-Computadora, 5. Casilla 3 X-Humano,6. Casilla 6 O-Computadora, 7. Casilla 7 X-Humano|60|
 
-*Explicacion:* En este ejemplo hay un empete con 5 movimientos el humano y 4 la computadora, el tiempo marco 1 minuto con 33 segundos ya que el humano demoro un poco mas en responder que la anterior vez, el marcador se mantiene con Computadora 1 - Humano 1.
+*Explicacion:* En este caso la computadora falló, dando asi al humano 4 movimientos y la computadora 3 movimientos en un lapso de 60 segundos nada mas, cambiando asi el marcador a Computadora 1 - Humano 1.
+
+| **Imagen** |**Proceso**| **Tiempo**|
+|--|--|--|
+|![image](https://user-images.githubusercontent.com/121835070/210361578-4a5da31d-15a5-4e75-9808-140073c9e9f3.png)|1. Casilla 1 X-Humano,2. Casilla 4 O-Computadora, 3. Casilla 5 X-Humano,4. Casilla 9 O-Computadora, 5. Casilla 6 X-Humano,6. Casilla 2 O-Computadora, 7. Casilla 7 X-Humano,8. Casilla 3 O-Computadora, 9. Casilla 8 X-Humano|65|
+
+*Explicacion:* En este ejemplo hay un empete con 5 movimientos el humano y 4 la computadora, el tiempo marcó 65 segundos ya que el humano demoro un poco mas en responder que la anterior vez, el marcador se mantiene con Computadora 1 - Humano 1.
 
 ##### Explicacion general
 *Hubo un promedio de respuesta de la computadora de 30 milisegundo y aproximadame de 24 segundos del humano, consideramenos que el mejor caso es la derrota de la computadora con 4 movimientos y el peor caso es el empate o perdida del humano.*
